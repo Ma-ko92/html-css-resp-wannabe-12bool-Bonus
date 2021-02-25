@@ -1,0 +1,70 @@
+/* Common */
+.centered{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.row {
+  margin-top: 50px;
+}
+h2,
+h3{
+  margin: 20px 0px;
+}  
+*p{
+  text-align: center;
+}
+.gray {
+  background-color: lightgray;
+}
+
+img {
+  height: 200px;
+}
+
+/* section top*/
+.lezioni .row img {
+  /*per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+} 
+/* Section bottom */
+.blue{
+  background-color: lightblue;
+}
+.blue * img{
+  margin-top: 40px;
+}
+hr{
+  border: 1px solid gray;
+}
+.blue .row img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+/* Media Query */
+@media all and (min-width: 992px) {
+  img{
+    height: 200px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  img{
+    height: 150px;
+  }
+  .col-md-6,
+  .col-md-4,
+  .col-md-12{
+    padding: 15px;
+  }
+}
+@media all and (max-width: 767px) {
+  img{
+    height: 100px;
+  }
+  .col-xs-12{
+    padding:15px;
+  }
+}
